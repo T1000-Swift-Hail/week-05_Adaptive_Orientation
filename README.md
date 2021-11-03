@@ -4,7 +4,7 @@
 
 ### Hints
 - Use stack views to achieve this interface . 
-- In your property panel , click the "+" next to the axis property to introduce a variation.
+- In your attribute panel , click the "+" next to the axis to introduce a variation base on width / height.
 - You can introduce variation for Axis, Alignment , distribution & more !
 
 - Check out this demonstration
