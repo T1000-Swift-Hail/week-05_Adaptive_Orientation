@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gxa-J3-YOy">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Preface-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AncientStory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0eb-Zk-gUT">
+                                <rect key="frame" x="20" y="146" width="780" height="1014"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="ancient" translatesAutoresizingMaskIntoConstraints="NO" id="hy2-8x-jKL">
+                                        <rect key="frame" x="0.0" y="0.0" width="780" height="507"/>
+                                    </imageView>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBY-RQ-QSF">
+                                        <rect key="frame" x="0.0" y="507" width="780" height="507"/>
+                                        <string key="text">pharaoh, (from Egyptian per ʿaa, “great house”), originally, the royal palace in ancient Egypt. The word came to be used metonymically for the Egyptian king under the New Kingdom (starting in the 18th dynasty, 1539–1292 bce), and by the 22nd dynasty (c. 945–c. 730 bce) it had been adopted as an epithet of respect.</string>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Iqh-Bv-0re"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0eb-Zk-gUT" secondAttribute="trailing" constant="20" id="40f-aI-ePk"/>
+                            <constraint firstItem="0eb-Zk-gUT" firstAttribute="leading" secondItem="Iqh-Bv-0re" secondAttribute="leading" constant="20" id="R3K-ER-vWz"/>
+                            <constraint firstAttribute="bottom" secondItem="0eb-Zk-gUT" secondAttribute="bottom" constant="20" id="d3K-ql-0OI"/>
+                            <constraint firstItem="0eb-Zk-gUT" firstAttribute="top" secondItem="Iqh-Bv-0re" secondAttribute="top" constant="20" id="jDX-VY-zy4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Preface" id="d4D-CD-Joy">
+                        <barButtonItem key="leftBarButtonItem" title="Ancient Story" id="IKX-yk-NNz">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="18" id="1Yv-9k-2Bd">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="927.536231884058" y="81.026785714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bIC-5O-QBt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gxa-J3-YOy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="KAJ-PW-IuD">
+                        <rect key="frame" x="0.0" y="24" width="820" height="102"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="iOX-tr-0Kf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BkH-Q9-atH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ancient" width="441" height="399"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
