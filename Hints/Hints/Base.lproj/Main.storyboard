@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UlT-XR-QB4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--hghfh-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="hghfh" id="BYZ-38-t0r" customClass="ViewController" customModule="Hints" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="c2M-mG-FtI">
+                                <rect key="frame" x="22.5" y="169.5" width="369" height="557"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="44444" translatesAutoresizingMaskIntoConstraints="NO" id="fF6-LN-2Ak">
+                                        <rect key="frame" x="0.0" y="0.0" width="369" height="249"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="369" id="0a2-zl-B22"/>
+                                            <constraint firstAttribute="height" constant="249" id="zB4-3L-w6b"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fju-kt-L9J">
+                                        <rect key="frame" x="54.5" y="276" width="260" height="281"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="260" id="GTl-3k-bFi"/>
+                                            <constraint firstAttribute="height" constant="281" id="o4D-6X-Bef"/>
+                                        </constraints>
+                                        <string key="text">After being stuck in prayer, I felt the answer to all the matters of my life and the facilitating the difficulties, and his prayer was a treatment for hearts and benefits.💕</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" lookupSuggestion="YES"/>
+                                    </textView>
+                                </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="c2M-mG-FtI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7RM-7x-Csk"/>
+                            <constraint firstItem="c2M-mG-FtI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AFb-vd-crP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="My story with prayer..." largeTitleDisplayMode="always" id="XKo-JW-rIV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="927.536231884058" y="70.982142857142847"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2hP-kP-Ded">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UlT-XR-QB4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="4JO-XN-3Zp">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2S0-Gt-92S"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKH-0g-ryp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17.39130434782609" y="70.982142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="44444" width="720" height="806"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
