@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JMe-FU-xtK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="iKl-iS-O2w">
+            <objects>
+                <viewController id="JMe-FU-xtK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lzi-OC-vTd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="ghU-FI-s4y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="pXV-aP-KQc">
+                                <rect key="frame" x="51.5" y="163.5" width="311" height="569"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="33d8b1b6-aa71-4c37-94a3-00dbea986f99" translatesAutoresizingMaskIntoConstraints="NO" id="odC-Wz-2oW">
+                                        <rect key="frame" x="5.5" y="0.0" width="300" height="187"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="1lp-Ti-x9G"/>
+                                            <constraint firstAttribute="height" constant="187" id="K71-kh-RGb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preface" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gr-e5-O5Z">
+                                        <rect key="frame" x="87.5" y="223" width="136" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="136" id="I5T-E8-4cA"/>
+                                            <constraint firstAttribute="height" constant="30" id="p4P-yj-m0a"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Klg-Wf-zPU">
+                                        <rect key="frame" x="0.0" y="289" width="311" height="280"/>
+                                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="280" id="5CZ-2r-yd6"/>
+                                            <constraint firstAttribute="width" constant="311" id="KVN-Y4-FGM"/>
+                                        </constraints>
+                                        <string key="text">The festival is uniquely one of the authentic cultures inherited from the customs, traditions and behavior in every region of the Kingdom, and there are many dialects and customs to be recognized in Janadriyah through the regions’ heritage, the popular market, books and old games</string>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="164" translatesAutoresizingMaskIntoConstraints="NO" id="chF-3O-LzQ">
+                                <rect key="frame" x="20" y="84" width="366" height="37"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ancient Story" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdX-43-GXB">
+                                        <rect key="frame" x="0.0" y="0.0" width="179.5" height="37"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDN-j8-V0D">
+                                        <rect key="frame" x="343.5" y="0.0" width="22.5" height="37"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <variation key="widthClass=compact" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yps-jy-P0k"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ghU-FI-s4y" secondAttribute="trailing" id="6U4-GH-fID"/>
+                            <constraint firstItem="pXV-aP-KQc" firstAttribute="centerX" secondItem="lzi-OC-vTd" secondAttribute="centerX" id="KnG-Eg-Hse"/>
+                            <constraint firstAttribute="bottom" secondItem="ghU-FI-s4y" secondAttribute="bottom" id="blk-eO-wRs"/>
+                            <constraint firstItem="ghU-FI-s4y" firstAttribute="top" secondItem="lzi-OC-vTd" secondAttribute="top" id="iJS-4n-7MQ"/>
+                            <constraint firstItem="chF-3O-LzQ" firstAttribute="top" secondItem="Yps-jy-P0k" secondAttribute="top" constant="40" id="l8N-Xx-IiJ"/>
+                            <constraint firstItem="pXV-aP-KQc" firstAttribute="centerY" secondItem="lzi-OC-vTd" secondAttribute="centerY" id="sfB-Dt-f5J"/>
+                            <constraint firstItem="ghU-FI-s4y" firstAttribute="leading" secondItem="lzi-OC-vTd" secondAttribute="leading" id="srX-Om-d09"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cSM-Eg-NBh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="630.43478260869574" y="37.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2" width="706" height="595"/>
+        <image name="33d8b1b6-aa71-4c37-94a3-00dbea986f99" width="1000" height="563"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
