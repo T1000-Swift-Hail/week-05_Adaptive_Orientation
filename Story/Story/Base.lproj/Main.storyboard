@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qe2-Vm-TNc">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -9,21 +9,21 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="jkS-wE-LtX">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Story" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController id="qe2-Vm-TNc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jtx-PG-EE2">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-1" translatesAutoresizingMaskIntoConstraints="NO" id="6hm-rO-sHK">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-1" translatesAutoresizingMaskIntoConstraints="NO" id="lCe-SY-ZmT">
+                                <rect key="frame" x="44" y="-44" width="808" height="471"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" spacing="127" translatesAutoresizingMaskIntoConstraints="NO" id="IkS-TH-fhI">
-                                <rect key="frame" x="20" y="62" width="374" height="76"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="IRV-C4-MLf">
+                                <rect key="frame" x="54" y="10" width="832" height="373"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="mlu-Ip-Bob">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="76"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="182" translatesAutoresizingMaskIntoConstraints="NO" id="rTg-pe-Mui">
+                                        <rect key="frame" x="0.0" y="0.0" width="822" height="31"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ancient Story" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc1-Yd-dlX">
                                                 <rect key="frame" x="0.0" y="0.0" width="145" height="31"/>
@@ -33,63 +33,71 @@
                                                 <color key="highlightedColor" systemColor="systemRedColor"/>
                                                 <color key="shadowColor" systemColor="systemOrangeColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="→ Mongols" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvj-Fx-iyQ">
-                                                <rect key="frame" x="0.0" y="38" width="151" height="38"/>
-                                                <color key="tintColor" systemColor="systemYellowColor"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                                <color key="shadowColor" systemColor="systemYellowColor"/>
-                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEH-Ye-PnU">
+                                                <rect key="frame" x="327" y="0.0" width="495" height="31"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="book.fill" catalog="system"/>
+                                            </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="gao-UK-1ID"/>
+                                            <constraint firstItem="aEH-Ye-PnU" firstAttribute="leading" secondItem="Tc1-Yd-dlX" secondAttribute="trailing" constant="182" id="jSw-CB-k85"/>
+                                            <constraint firstAttribute="height" constant="31" id="r98-yL-MSc"/>
                                         </constraints>
-                                        <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEH-Ye-PnU">
-                                        <rect key="frame" x="327" y="0.0" width="47" height="31"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="book.fill" catalog="system"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="‏لقطة الشاشة ١٤٤٣-٠٣-٢٨ في ١٠.٢٨.٥٤ م" translatesAutoresizingMaskIntoConstraints="NO" id="hhd-wt-GoS">
-                                <rect key="frame" x="20" y="181" width="107" height="355.5"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY5-68-mCv">
-                                <rect key="frame" x="20" y="591.5" width="374" height="284.5"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Asian ethnic group native to Mongolia and the Inner Mongolia Autonomous Region of China. The Mongols are the principal member of more large family of Mongolic peoples. The Oirats in Western Mongolia as well as the Buryats and Kalmyks of Russia are classified either as distinct ethno-linguistic groups or subgroups of Mongols.
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="→ Mongols" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvj-Fx-iyQ">
+                                        <rect key="frame" x="0.0" y="62" width="589" height="38"/>
+                                        <color key="tintColor" systemColor="systemYellowColor"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" systemColor="systemYellowColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="‏لقطة الشاشة ١٤٤٣-٠٣-٢٨ في ١٠.٢٨.٥٤ م" translatesAutoresizingMaskIntoConstraints="NO" id="hhd-wt-GoS">
+                                        <rect key="frame" x="0.0" y="131" width="545" height="68.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY5-68-mCv">
+                                        <rect key="frame" x="0.0" y="230.5" width="832" height="142.5"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Asian ethnic group native to Mongolia and the Inner Mongolia Autonomous Region of China. The Mongols are the principal member of more large family of Mongolic peoples. The Oirats in Western Mongolia as well as the Buryats and Kalmyks of Russia are classified either as distinct ethno-linguistic groups or subgroups of Mongols.
 The Mongols are bound together by a common heritage and ethnic identity. Their indigenous dialects are collectively known as the Mongolian language. The ancestors of the modern-day Mongols are referred to as Proto-Mongols.</string>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Gvj-Fx-iyQ" secondAttribute="trailing" constant="243" id="4KY-dd-0XD"/>
+                                    <constraint firstAttribute="trailing" secondItem="rTg-pe-Mui" secondAttribute="trailing" constant="10" id="JKy-1j-B1x"/>
+                                    <constraint firstAttribute="trailing" secondItem="hY5-68-mCv" secondAttribute="trailing" id="P34-PO-1Dr"/>
+                                    <constraint firstAttribute="bottom" secondItem="hY5-68-mCv" secondAttribute="bottom" id="Ray-yQ-bRh"/>
+                                    <constraint firstItem="hY5-68-mCv" firstAttribute="leading" secondItem="IRV-C4-MLf" secondAttribute="leading" id="fMA-0C-Ygg"/>
+                                    <constraint firstItem="Gvj-Fx-iyQ" firstAttribute="top" secondItem="rTg-pe-Mui" secondAttribute="bottom" constant="35" id="idk-jt-gPb"/>
+                                    <constraint firstItem="hhd-wt-GoS" firstAttribute="top" secondItem="Gvj-Fx-iyQ" secondAttribute="bottom" constant="35" id="lBS-ep-GOf"/>
+                                    <constraint firstItem="hhd-wt-GoS" firstAttribute="leading" secondItem="IRV-C4-MLf" secondAttribute="leading" id="omI-MS-bAN"/>
+                                    <constraint firstAttribute="trailing" secondItem="hhd-wt-GoS" secondAttribute="trailing" constant="287" id="rZp-9A-mVX"/>
+                                    <constraint firstItem="hY5-68-mCv" firstAttribute="top" secondItem="hhd-wt-GoS" secondAttribute="bottom" constant="35" id="wiF-sf-6do"/>
+                                </constraints>
+                                <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
+                            </stackView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="Ebc-MG-E03"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6hm-rO-sHK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FKh-x3-OGs"/>
-                            <constraint firstItem="IkS-TH-fhI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JQC-Rp-Shm"/>
-                            <constraint firstItem="hY5-68-mCv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KOE-qC-HUR"/>
-                            <constraint firstItem="hhd-wt-GoS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Q0L-36-Dbi"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hY5-68-mCv" secondAttribute="trailing" constant="20" id="R8P-c6-oNZ"/>
-                            <constraint firstItem="hY5-68-mCv" firstAttribute="top" secondItem="hhd-wt-GoS" secondAttribute="bottom" constant="55" id="YGZ-rf-AtX"/>
-                            <constraint firstItem="hhd-wt-GoS" firstAttribute="top" secondItem="IkS-TH-fhI" secondAttribute="bottom" constant="43" id="eSh-8f-Ncp"/>
-                            <constraint firstItem="6hm-rO-sHK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="h0i-jV-tk9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IkS-TH-fhI" secondAttribute="trailing" constant="20" id="kar-3T-BUt"/>
-                            <constraint firstAttribute="bottom" secondItem="6hm-rO-sHK" secondAttribute="bottom" id="q5I-Pa-72y"/>
-                            <constraint firstItem="IkS-TH-fhI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="rtV-Hg-YcZ"/>
-                            <constraint firstItem="6hm-rO-sHK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ujB-dV-oQf"/>
-                            <constraint firstAttribute="bottom" secondItem="hY5-68-mCv" secondAttribute="bottom" constant="20" symbolic="YES" id="vH3-mx-KWj"/>
+                            <constraint firstItem="IRV-C4-MLf" firstAttribute="leading" secondItem="Ebc-MG-E03" secondAttribute="leading" constant="10" id="Fey-c5-lG4"/>
+                            <constraint firstItem="lCe-SY-ZmT" firstAttribute="leading" secondItem="Ebc-MG-E03" secondAttribute="leading" id="Hg5-6m-8mm"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="lCe-SY-ZmT" secondAttribute="bottom" constant="-34" id="JlE-s2-lDt"/>
+                            <constraint firstItem="IRV-C4-MLf" firstAttribute="top" secondItem="Ebc-MG-E03" secondAttribute="top" constant="10" id="QKf-Ho-GnV"/>
+                            <constraint firstItem="Ebc-MG-E03" firstAttribute="bottom" secondItem="IRV-C4-MLf" secondAttribute="bottom" constant="10" id="bwQ-vD-phF"/>
+                            <constraint firstAttribute="trailing" secondItem="IRV-C4-MLf" secondAttribute="trailing" constant="10" id="hDY-CN-Aky"/>
+                            <constraint firstItem="lCe-SY-ZmT" firstAttribute="top" secondItem="Jtx-PG-EE2" secondAttribute="topMargin" constant="-44" id="kne-hL-lt4"/>
+                            <constraint firstItem="Ebc-MG-E03" firstAttribute="trailing" secondItem="lCe-SY-ZmT" secondAttribute="trailing" id="z2b-qs-PHW"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fHU-eE-Nte" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+            <point key="canvasLocation" x="-464" y="-485"/>
         </scene>
     </scenes>
     <resources>
